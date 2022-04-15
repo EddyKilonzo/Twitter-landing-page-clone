@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Bold.ttf);
+}
+body{
+    font-family: Ubuntu;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+main{
+    /* justify-content: space-evenly; */
+    display:flex;
+    justify-content: space-between;
+    
+    background-color: rgb(255, 255, 255) ;  
+}
+
+.left img{
+    width: 80%;
+    height: 100vh;   
+}
+.left{
+    width: 55%;
+    background-image:url('./bg.jpg');
+    height: 100vh;
+
+}
+.right{
+    width: 40%;
+    padding-left: 10px;
+    padding: 60px;
+}
+h1{
+    font-size: 70px;
+    display: flex;
+    margin-top: 10px;
+    
+}
+p{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.email{
+    border-radius: 30px;
+    width: 60%;
+    height: 20px;
+    border: transparent;
+    box-shadow: 0 0 0.5px 0.5px; 
+    padding: 10px;
+}
+.sign-up{
+    width:68%;
+    height: 40px;
+    font-weight: bolder;
+    border: transparent;
+    box-shadow: 0 0 0.5px 0.5px; 
+    border-radius: 30px;
+}
+.sign-up:hover{
+    background-color: #d4cfcf;
+}
+.sign{
+    width:68%;
+    height: 40px;
+    background-color: rgb(29, 173, 230);
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+}
+.sign:hover{
+    background-color: rgb(20, 145, 194);
+
+}
+.text{
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 5px;
+    
+}
+.a{
+    color:rgb(39, 165, 214);
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a::before{
+    text-decoration: solid;
+}
+.account{
+    font-size: 16px;
+    margin-top: 50px;
+}
+.sign-in{
+    width:68%;
+    height: 40px;
+    border: none;
+    box-shadow: 0 0 0.5px 0.5px; 
+    border-radius: 30px;
+    text-decoration:rgb(39, 165, 214);
+}
+.sign-in:hover{
+    background-color: #bedbdf;
+}
+.si{
+    font-size: 16px;
+    color: rgb(39, 165, 214);
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgb(147, 147, 148);
+    padding: 6px;
+    justify-content: space-evenly;
+    display: inline;
+    
+}
+.foot{
+    font-size: 13px;
+    
+    text-align: center;
+    font-size:small;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}   
